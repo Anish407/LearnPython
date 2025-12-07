@@ -7,3 +7,5 @@ jsonResponse = response.json()
 print(jsonResponse)
 for person in jsonResponse['people']:
     print(f"{person['name']} is on the {person['craft']}")
+
+
